@@ -1,4 +1,4 @@
-# @uniswap/token-lists (beta)
+# @hubdao/token-lists (beta)
 
 [![Tests](https://github.com/Uniswap/token-lists/workflows/Tests/badge.svg)](https://github.com/Uniswap/token-lists/actions?query=workflow%3ATests)
 [![npm](https://img.shields.io/npm/v/@uniswap/token-lists)](https://unpkg.com/@uniswap/token-lists@latest/)
@@ -20,7 +20,7 @@ Tokens on token lists, and token lists themselves, are tagged so that users can 
 
 ## JSON Schema $id
 
-The JSON schema ID is [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
+The JSON schema ID is [https://hubdao.org/tokenlist.schema.json](https://hubdao.org/tokenlist.schema.json)
 
 ## Validating token lists
 
@@ -51,7 +51,7 @@ npm package to take advantage of the JSON schema for validation and the TypeScri
 Otherwise, you are simply working with JSON. All the usual tools apply, e.g.:
 
 ```typescript
-import { TokenList, schema } from '@uniswap/token-lists'
+import { TokenList, schema } from '@hubdao/token-lists'
 
 // generate your token list however you like.
 const myList: TokenList = generateMyTokenList();
